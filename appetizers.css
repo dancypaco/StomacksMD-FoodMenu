@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .appetizer-container {
+    margin: 50px auto;
+    width: 500px; /* set a fixed width */
+    height: 600px; /* set a fixed height */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+  }
+  
+  .appetizer-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .appetizer-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #555;
+  }
+  
+  .appetizer-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 20px 20px 20px;
+    color: #777;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .appetizer-container {
+      margin: 20px auto;
+      max-width: 90%;
+    }
+  }
+  

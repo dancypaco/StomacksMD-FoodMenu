@@ -1,0 +1,10 @@
+Create a Food Menu website using <div> in HTML.
+
+Requirements:
+
+Three Food Categories (Appetizer, Main Dish, Dessert)
+Picture of each food with description, etc.
+Minimum of 3 food choices per category
+Maximize the <div> screen layout
+Modify the footer
+Add CSS3
